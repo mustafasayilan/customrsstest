@@ -1,0 +1,9 @@
+name: 'Custom RSS Widget'
+type: module
+description: 'Provides a visual RSS widget. (By Msayilan)'
+core_version_requirement: ^9
+package: Custom
+dependencies:
+  - drupal:views
+version: '1.0'
+project: 'custom_rss_widget'

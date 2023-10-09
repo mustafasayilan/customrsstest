@@ -1,0 +1,13 @@
+custom_rss_widget.external_css:
+  path: '/NADA_rss_widget/css/{theme_name}'
+  defaults:
+    _controller: '\Drupal\custom_rss_widget\Controller\WidgetController::getExternalCSS'
+  requirements:
+    _permission: 'access content'
+    theme_name: ^(dark|light|main)$
+custom_rss_widget.external_js:
+  path: '/NADA_rss_widget/js/widget-external'
+  defaults:
+    _controller: '\Drupal\custom_rss_widget\Controller\WidgetController::getExternalJS'
+  requirements:
+    _permission: 'access content'
